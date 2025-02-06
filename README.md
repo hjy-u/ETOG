@@ -46,7 +46,7 @@ $ETOG
 
 ```
 
-##Pretrianed model wegihts and training/testing logs
+## Pretrianed model wegihts and training/testing logs
 Performance (mIoU) on Refcoco dataset:
 
 | Backbone | val | test A | test B | Weights| Train log | Test log |
@@ -59,7 +59,7 @@ We release all Refcoco-related pretrained weights reported on our paper.
 
 More training/testing logs and model weights available for Refcoco+ and Refcocog benchmarks are available [here](https://drive.google.com/drive/folders/1NDkopub0oL_WTm3TqS4s3htsqPYUTRk9?usp=sharing) on our google drive.
 
-##Train ETOG:
+## Train ETOG:
 
 Quick run
 
@@ -70,10 +70,8 @@ Please modify the config files ```(e.g. config/refcoco/bridge_r50.ymal)``` to ch
 
 Our defualt setup: bs=16 on 1 NVIDIA RTX 2080 TI GPU.
 
+## Test ETOG:
 
-##Test ETOG:
-
-###RES testing
 Quick run
 
 ```
@@ -86,12 +84,13 @@ We also provide prediction visualization saving functionality by setting up
 ```
 TEST: 
   visualizate: True
-``` 
+```
+
 in ```.yaml``` files. Currently, we support attention viusalizations for R50 and R101 (but not ViT backbone) in heatmap style.
 
 ![Pipeline Image](attention_map.png)
 
-##Acknowledgment
+## Acknowledgment
 
 The code is heavily adapted from [ETIRS](https://github.com/kkakkkka/ETRIS/tree/main). We appreciate the authors for their wonderful codebase.
 
@@ -107,6 +106,4 @@ If ETOG is useful for your research, please consider citing:
   year={2024}
 }
 ```
-
-
 
