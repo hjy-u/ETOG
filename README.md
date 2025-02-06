@@ -5,6 +5,8 @@ This is the official implementation code base for [A Parameter-Efficient Tuning 
 
 This git repo includes the ETOG model, which is designed for parameter-efficient tuning on the Referring Expression Segmentation (RES) task.
 
+Back to the [Project Page](https://sites.google.com/umn.edu/etog-etrg/home)
+
 ![Pipeline Image](pipeline.png)
 
 ## Implementations for RGS and RGA Robotics Tasks
