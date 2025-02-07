@@ -1,11 +1,9 @@
 # ETOG
 
 ## Introduction
-This is the official implementation code base for [A Parameter-Efficient Tuning Framework for Language-guided Object Grounding and Robot Grasping](https://arxiv.org/pdf/2409.19457) accepted for ICRA 2025. Our project produces **three separated** github repos for ETOG, ETRG-A, ETRG-B models. Stay tuned for code release.
+This is the official implementation code base for [A Parameter-Efficient Tuning Framework for Language-guided Object Grounding and Robot Grasping](https://arxiv.org/pdf/2409.19457) accepted for ICRA 2025. Our project produces **three separated** github repos for ETOG, ETRG-A, ETRG-B models. Stay tuned for code release. Here is our [Project Page](https://sites.google.com/umn.edu/etog-etrg/home).
 
 This git repo includes the ETOG model, which is designed for parameter-efficient tuning on the Referring Expression Segmentation (RES) task.
-
-Back to the [Project Page](https://sites.google.com/umn.edu/etog-etrg/home)
 
 ![Pipeline Image](pipeline.png)
 
