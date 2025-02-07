@@ -11,7 +11,7 @@ Back to the [Project Page](https://sites.google.com/umn.edu/etog-etrg/home)
 
 ## Implementations for RGS and RGA Robotics Tasks
 
-1. The ETRG-A model designed for ```Referring Grasp Synthesis (RGS)``` task can be found here.
+1. The ETRG-A model designed for ```Referring Grasp Synthesis (RGS)``` task can be found [here](https://github.com/hjy-u/ETRG-RGS).
 
 2. The ETRG-B model designed for ```Referring Grasp Affordance (RGA)``` task can be found here.
 
@@ -98,7 +98,7 @@ The code is heavily adapted from [ETIRS](https://github.com/kkakkkka/ETRIS/tree/
 
 ## Citation
 
-If ETOG is useful for your research, please consider citing:
+If ETOG-ETRG is useful for your research, please consider citing:
 
 ```
 @article{yu2024parameter,
